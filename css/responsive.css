@@ -1,4 +1,4 @@
-/* /*
+/*
  * Responsive CSS Overrides
 
  */
@@ -6,16 +6,16 @@
 /* 
    1. Large Laptops / Desktops (Min 1200px)
     */
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .hero-heading {
     font-size: 4rem;
   }
-} */
+}
 
 /* 
    2. Medium/Small Laptops (Max 1199px)
     */
-/* @media (max-width: 1199.98px) {
+@media (max-width: 1199.98px) {
   .hero-heading {
     font-size: 3rem;
   }
@@ -36,7 +36,7 @@
 /* 
    3. Tablets (Max 991.98px)
    */
-/* @media (max-width: 991.98px) {
+@media (max-width: 991.98px) {
   .hero-section {
     padding: 140px 0 80px;
     text-align: center;
@@ -72,10 +72,10 @@
   .about-img {
     height: 350px;
     margin-bottom: 2.5rem;
-  } */
+  }
   
   /* Navbar adjustments for mobile dropdown */
-  /* .navbar-collapse {
+  .navbar-collapse {
     background: rgba(11, 24, 39, 0.98);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -94,15 +94,15 @@
     display: none; /* Hide indicator underline on mobile menus */
   }
   
-  /* .contact-info-list {
+  .contact-info-list {
     margin-bottom: 3rem;
   }
-} */  
+}
 
 /* 
    4. Mobile Devices (Max 767.98px)
     */
-/* @media (max-width: 767.98px) {
+@media (max-width: 767.98px) {
   .hero-heading {
     font-size: 2.25rem;
   }
@@ -125,7 +125,7 @@
   }
   
   /* Timeline Responsive Makeover (Convert to Single-Column Left-Aligned) */
-  /* .timeline-container::before {
+  .timeline-container::before {
     left: 20px;
   }
   
@@ -151,18 +151,18 @@
   .timeline-item:nth-child(odd) .timeline-content {
     float: none;
   }
-   */
+  
   /* Project Section padding */
-  /* .project-body {
+  .project-body {
     padding: 1.25rem;
   }
-   */
-  /* .project-img-wrapper {
+  
+  .project-img-wrapper {
     height: 180px;
-  } */
+  }
   
   /* Stats styling */
-  /* .stat-card {
+  .stat-card {
     padding: 1.75rem;
   }
   
@@ -171,17 +171,17 @@
   }
   
   /* Footer details */
-  /* .footer-bottom {
+  .footer-bottom {
     flex-direction: column;
     text-align: center;
     margin-top: 2.5rem;
   }
-} */ 
+}
 
 /* 
    5. Extra Small Mobiles (Max 479.98px)
     */
-/* @media (max-width: 479.98px) {
+@media (max-width: 479.98px) {
   .hero-heading {
     font-size: 1.95rem;
   }
@@ -203,4 +203,4 @@
   .stat-number {
     font-size: 2.25rem;
   }
-} */ 
+}
