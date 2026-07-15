@@ -1,0 +1,207 @@
+/*
+ * Responsive CSS Overrides
+ * Designed for Wubgzer Alemayehu Portfolio
+ */
+
+/* ==========================================
+   1. Large Laptops / Desktops (Min 1200px)
+   ========================================== */
+@media (min-width: 1200px) {
+  .hero-heading {
+    font-size: 4rem;
+  }
+}
+
+/* ==========================================
+   2. Medium/Small Laptops (Max 1199px)
+   ========================================== */
+@media (max-width: 1199.98px) {
+  .hero-heading {
+    font-size: 3rem;
+  }
+  
+  .illustration-sphere {
+    width: 240px;
+    height: 240px;
+  }
+  
+  .ring-1 { width: 300px; height: 300px; }
+  .ring-2 { width: 350px; height: 350px; }
+  .ring-3 { width: 400px; height: 400px; }
+  
+  .about-img {
+    height: 400px;
+  }
+}
+
+/* ==========================================
+   3. Tablets (Max 991.98px)
+   ========================================== */
+@media (max-width: 991.98px) {
+  .hero-section {
+    padding: 140px 0 80px;
+    text-align: center;
+  }
+  
+  .hero-tag {
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .hero-subtitle-item {
+    justify-content: center;
+  }
+  
+  .hero-buttons {
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  
+  .illustration-wrapper {
+    height: 320px;
+  }
+  
+  .illustration-sphere {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .ring-1 { width: 260px; height: 260px; }
+  .ring-2 { width: 310px; height: 310px; }
+  .ring-3 { width: 360px; height: 360px; }
+  
+  .about-img {
+    height: 350px;
+    margin-bottom: 2.5rem;
+  }
+  
+  /* Navbar adjustments for mobile dropdown */
+  .navbar-collapse {
+    background: rgba(11, 24, 39, 0.98);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  }
+  
+  .nav-link {
+    padding: 0.75rem 1rem !important;
+  }
+  
+  .nav-link::after {
+    display: none; /* Hide indicator underline on mobile menus */
+  }
+  
+  .contact-info-list {
+    margin-bottom: 3rem;
+  }
+}
+
+/* ==========================================
+   4. Mobile Devices (Max 767.98px)
+   ========================================== */
+@media (max-width: 767.98px) {
+  .hero-heading {
+    font-size: 2.25rem;
+  }
+  
+  .hero-subtitle-item {
+    font-size: 1.2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .about-img {
+    height: 300px;
+  }
+  
+  .info-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  /* Timeline Responsive Makeover (Convert to Single-Column Left-Aligned) */
+  .timeline-container::before {
+    left: 20px;
+  }
+  
+  .timeline-dot {
+    left: 20px !important;
+  }
+  
+  .timeline-content {
+    width: calc(100% - 45px) !important;
+    float: none !important;
+    margin-left: 45px !important;
+    padding: 1.5rem;
+  }
+  
+  .timeline-item {
+    margin-bottom: 2.5rem;
+  }
+  
+  .timeline-item:nth-child(even) .timeline-content {
+    float: none;
+  }
+  
+  .timeline-item:nth-child(odd) .timeline-content {
+    float: none;
+  }
+  
+  /* Project Section padding */
+  .project-body {
+    padding: 1.25rem;
+  }
+  
+  .project-img-wrapper {
+    height: 180px;
+  }
+  
+  /* Stats styling */
+  .stat-card {
+    padding: 1.75rem;
+  }
+  
+  .stat-number {
+    font-size: 2.75rem;
+  }
+  
+  /* Footer details */
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+}
+
+/* ==========================================
+   5. Extra Small Mobiles (Max 479.98px)
+   ========================================== */
+@media (max-width: 479.98px) {
+  .hero-heading {
+    font-size: 1.95rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+  }
+  
+  .stat-number {
+    font-size: 2.25rem;
+  }
+}

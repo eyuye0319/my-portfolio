@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wubgzer Alemayehu | Premium Portfolio</title>
+  
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- FontAwesome 6 Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       1. STICKY GLASSMORPHIC NAVBAR
+       ========================================== -->
+  <nav class="navbar navbar-expand-lg custom-navbar fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#home" id="brandLogo">
+       WUBEGZER<span class="navbar-brand-dot"></span>
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" id="navToggle">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home" id="linkHome">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about" id="linkAbout">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills" id="linkSkills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience" id="linkExperience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" id="linkProjects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#research" id="linkResearch">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" id="linkContact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ==========================================
+       2. HERO SECTION
+       ========================================== -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Text Content -->
+        <div class="col-lg-7 col-md-12">
+          <div class="hero-tag" id="heroBadge">
+            <i class="fa-solid fa-bolt text-info"></i> Welcome to the Future of Software
+          </div>
+          
+          <h1 class="hero-heading text-white" id="heroTitle">
+            Building <span class="gradient-text">Intelligent Software</span> for the Future
+          </h1>
+          
+          <div class="hero-subtitle-container" id="heroSubtitle">
+            <div class="hero-subtitle-slider">
+              <div class="hero-subtitle-item">
+                <i class="fa-solid fa-laptop-code"></i> Software Engineer
+              </div>
+              <div class="hero-subtitle-item">
+                <i class="fa-solid fa-brain"></i> AI Enthusiast
+              </div>
+              <div class="hero-subtitle-item">
+                <i class="fa-solid fa-shield-halved"></i> Cybersecurity Researcher
+              </div>
+              <div class="hero-subtitle-item">
+                <i class="fa-solid fa-terminal"></i> Full Stack Developer
+              </div>
+            </div>
+          </div>
+          
+          <div class="hero-buttons" id="heroActions">
+            <!-- Download CV Placeholder (links to local assets) -->
+            <a href="assets/cv.pdf" class="btn btn-premium-primary" download id="btnDownloadCV">
+              <i class="fa-solid fa-cloud-arrow-down me-2"></i> Download CV
+            </a>
+            <a href="#projects" class="btn btn-premium-outline" id="btnViewProjects">
+              View Projects <i class="fa-solid fa-arrow-right ms-2"></i>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Premium Illustration (Pure CSS Floating Graphic) -->
+        <div class="col-lg-5 col-md-12 mt-5 mt-lg-0 d-flex justify-content-center">
+          <div class="illustration-wrapper" id="heroIllustration">
+            <div class="illustration-sphere"></div>
+            <div class="illustration-ring ring-1"></div>
+            <div class="illustration-ring ring-2"></div>
+            <div class="illustration-ring ring-3"></div>
+            <div class="illustration-glowing-dots">
+              <div class="dot dot-1"></div>
+              <div class="dot dot-2"></div>
+              <div class="dot dot-3"></div>
+              <div class="dot dot-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       3. ABOUT ME SECTION
+       ========================================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-title-container" id="aboutHeader">
+        <span class="section-subtitle">01 / Biography</span>
+        <h2 class="section-title text-white">About Me</h2>
+      </div>
+      
+      <div class="row align-items-center">
+        <!-- Profile Image -->
+        <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
+          <div class="about-img-container" id="aboutProfile">
+            <div class="about-glow"></div>
+            <!-- Live Preview Premium stock image fallback. User can replace this easily with images/profile.jpg -->
+            <img src="./images/image.png" alt="Wubgzer Alemayehu" class="about-img" referrerPolicy ="no-referrer" id="profileImage">
+          </div>
+        </div>
+        
+        <!-- Text & Info Cards -->
+        <div class="col-lg-7 col-md-12 ps-lg-5">
+          <h3 class="mb-3 text-white" id="aboutGreeting">I am Wubgzer Alemayehu</h3>
+          <p class="mb-4" id="aboutBio">
+            A passionate Software Engineer, AI Enthusiast, and Cybersecurity Researcher dedicated to designing and building premium, high-integrity digital products. My work sits at the intersection of AI modeling, secure web systems, and full-stack architecture. I thrive on solving complex computational challenges and creating visually captivating, accessible user interfaces.
+          </p>
+          
+          <div class="info-cards-grid" id="aboutInfoGrid">
+            <!-- Card 1: Name -->
+            <div class="info-mini-card" id="infoName">
+              <div class="info-mini-icon">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div>
+                <div class="info-mini-title">Name</div>
+                <div class="info-mini-value">W. Alemayehu</div>
+              </div>
+            </div>
+            
+            <!-- Card 2: Location -->
+            <div class="info-mini-card" id="infoLocation">
+              <div class="info-mini-icon">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </div>
+              <div>
+                <div class="info-mini-title">Location</div>
+                <div class="info-mini-value">Addis Ababa</div>
+              </div>
+            </div>
+            
+            <!-- Card 3: Education -->
+            <div class="info-mini-card" id="infoEducation">
+              <div class="info-mini-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <div>
+                <div class="info-mini-title">Education</div>
+                <div class="info-mini-value">BSc Software Engineering. ASTU</div>
+              </div>
+            </div>
+            
+            <!-- Card 4: Interests -->
+            <div class="info-mini-card" id="infoInterests">
+              <div class="info-mini-icon">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+              <div>
+                <div class="info-mini-title">Interests</div>
+                <div class="info-mini-value">AI, Cybersec, Full Stack</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       4. SKILLS SECTION
+       ========================================== -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="section-title-container" id="skillsHeader">
+        <span class="section-subtitle">02 / Capabilities</span>
+        <h2 class="section-title text-white">My Skills</h2>
+      </div>
+      
+      <div class="row g-4" id="skillsGrid">
+        <!-- Frontend Development -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card skills-category-card" id="skillCardFrontend">
+            <div class="skills-category-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h4 class="text-white mb-4">Frontend</h4>
+            
+            <div class="progress-container">
+              <div class="progress-label">
+                <span>HTML / CSS</span>
+                <span class="text-info">95%</span>
+              </div>
+              <div class="progress-custom-bar">
+                <div class="progress-custom-fill" style="width: 95%;"></div>
+              </div>
+            </div>
+            
+            <div class="progress-container">
+              <div class="progress-label">
+                <span>Bootstrap 5</span>
+                <span class="text-info">90%</span>
+              </div>
+              <div class="progress-custom-bar">
+                <div class="progress-custom-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="progress-container">
+              <div class="progress-label">
+                <span>React</span>
+                <span class="text-info">65%</span>
+              </div>
+              <div class="progress-custom-bar">
+                <div class="progress-custom-fill" style="width: 65%;"></div>
+              </div>
+            </div>
+            
+            <div class="tech-tag-cloud mt-4">
+              <span class="tech-pill"><i class="fa-brands fa-html5 text-danger"></i> HTML5</span>
+              <span class="tech-pill"><i class="fa-brands fa-css3-alt text-primary"></i> CSS3</span>
+              <span class="tech-pill"><i class="fa-brands fa-bootstrap text-purple"></i> Bootstrap</span>
+              <span class="tech-pill"><i class="fa-brands fa-react text-info"></i> React</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Backend & Databases -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card skills-category-card" id="skillCardBackend">
+            <div class="skills-category-icon">
+              <i class="fa-solid fa-server"></i>
+            </div>
+            <h4 class="text-white mb-4">Backend & DB</h4>
+            
+            <div class="progress-container">
+              <div class="progress-label">
+                <span>Java / Spring Boot</span>
+                <span class="text-info">75%</span>
+              </div>
+              <div class="progress-custom-bar">
+                <div class="progress-custom-fill" style="width: 75%;"></div>
+              </div>
+            </div>
+            
+            <div class="progress-container">
+              <div class="progress-label">
+                <span>Node.js</span>
+                <span class="text-info">45%</span>
+              </div>
+              <div class="progress-custom-bar">
+                <div class="progress-custom-fill" style="width: 45%;"></div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="progress-label">
+                <span>Php</span>
+                <span class="text-info">45%</span>
+              </div>
+              <div class="progress-custom-bar">
+                <div class="progress-custom-fill" style="width: 45%;"></div>
+              </div>
+            </div>
+
+            <div class="progress-container">
+              <div class="progress-label">
+                <span>Relational Databases</span>
+                <span class="text-info">85%</span>
+              </div>
+              <div class="progress-custom-bar">
+                <div class="progress-custom-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+            
+            <div class="tech-tag-cloud mt-4">
+              <span class="tech-pill"><i class="fa-brands fa-java text-orange"></i> Java</span>
+              <span class="tech-pill"><i class="fa-solid fa-leaf text-success"></i> Spring Boot</span>
+              <span class="tech-pill"><i class="fa-brands fa-node-js text-success"></i> Node</span>
+              <span class="tech-pill"><i class="fa-solid fa-database text-info"></i> MySQL</span>
+              <span class="tech-pill"><i class="fa-solid fa-database text-primary"></i> PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- AI & Cybersecurity -->
+        <div class="col-lg-4 col-md-12">
+          <div class="glass-card skills-category-card" id="skillCardAdvanced">
+            <div class="skills-category-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h4 class="text-white mb-4">AI & Security</h4>
+            
+            <div class="progress-container">
+              <div class="progress-label">
+                <span>Python & ML Models</span>
+                <span class="text-info">70%</span>
+              </div>
+              <div class="progress-custom-bar">
+                <div class="progress-custom-fill" style="width: 70%;"></div>
+              </div>
+            </div>
+            
+            <div class="progress-container">
+              <div class="progress-label">
+                <span>Malware Analysis & Sec</span>
+                <span class="text-info">67%</span>
+              </div>
+              <div class="progress-custom-bar">
+                <div class="progress-custom-fill" style="width: 67%;"></div>
+              </div>
+            </div>
+
+            <div class="progress-container">
+              <div class="progress-label">
+                <span>Testing Tools (Frida, MobSF)</span>
+                <span class="text-info">70%</span>
+              </div>
+              <div class="progress-custom-bar">
+                <div class="progress-custom-fill" style="width: 70%;"></div>
+              </div>
+            </div>
+            
+            <div class="tech-tag-cloud mt-4">
+              <span class="tech-pill"><i class="fa-brands fa-python text-warning"></i> Python</span>
+              <span class="tech-pill"><i class="fa-solid fa-brain text-pink"></i> TensorFlow</span>
+              <span class="tech-pill"><i class="fa-solid fa-bug text-danger"></i> Frida</span>
+              <span class="tech-pill"><i class="fa-solid fa-shield text-info"></i> MobSF</span>
+              <span class="tech-pill"><i class="fa-brands fa-git-alt text-orange"></i> Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 
+       5. EXPERIENCE TIMELINE
+      -->
+  <section class="experience-section" id="experience">
+    <div class="container">
+      <div class="section-title-container" id="experienceHeader">
+        <span class="section-subtitle">03 / Journey</span>
+        <h2 class="section-title text-white">Experience Timeline</h2>
+      </div>
+      
+      <div class="timeline-container" id="timeline">
+        <!-- Item 1: INSA Internship -->
+        <div class="timeline-item" id="timelineItem1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jun 2026 - Present</span>
+            <h4 class="timeline-title">AI-Powered Android Security Testing Platform</h4>
+            <div class="timeline-company">INSA (Information Network Security Administration)</div>
+            <p class="timeline-desc text-gray">
+             RL Engine Trainer <br>
+
+Currently contributing as part of a multidisciplinary team to a one-year AI-powered Android Security Testing Platform at INSA. My primary responsibility is developing and training Reinforcement Learning (RL) agents in Python to improve automated Android security testing and intelligent vulnerability analysis. I collaborate with team members on integrating AI techniques with Android security tools, and I will continue contributing remotely while completing my Software Engineering degree at ASTU.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Item 2: Travel Booking System -->
+        <div class="timeline-item" id="timelineItem2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Feb 2025 - Apr 2025</span>
+            <h4 class="timeline-title">Frontend Developer</h4>
+            <div class="timeline-company">Travel & Leisure Systems Project</div>
+            <p class="timeline-desc text-gray">
+              Engineered a highly responsive, end-to-end trip reservation engine. Developed the secure customer scheduling engine, payment gateway integrations, and comprehensive dashboard for ticket issuance.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Item 3: Knowledge Management System -->
+        <div class="timeline-item" id="timelineItem3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jun 2025 - sep 2025</span>
+            <h4 class="timeline-title">Internship</h4>
+            <div class="timeline-company">INSA (Information Network Security Administration)</div>
+            <p class="timeline-desc text-gray">
+             contributed to the design and development of modern knowledeg management system(KMS) during my internship at INSA. Built responsive and user friendly interface while collaborating with a multidisciplinary team to ehance document management and organaizational knowledge sharing.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Item 4: Frontend Projects -->
+        <div class="timeline-item" id="timelineItem4">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Feb 2022/2023 - Present</span>
+            <h4 class="timeline-title">Bachelor of Science in Software Engineering</h4>
+            <div class="timeline-company">Adama Science and Technology University (ASTU)</div>
+            <p class="timeline-desc text-gray">
+              Pursuing a Bachelor's degree in Software Engineering with a CGPA of 3.80/4.00. Throughout my studies, I have developed strong expertise in software engineering principles, artificial intelligence, machine learning,  system design and architecture and mobile application development. I am passionate about building intelligent, secure, and impactful software solutions that address real-world challenges.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       6. PROJECTS SECTION
+       ========================================== -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <div class="section-title-container" id="projectsHeader">
+        <span class="section-subtitle">04 / My Work</span>
+        <h2 class="section-title text-white">Featured Projects</h2>
+      </div>
+      
+      <div class="row g-4" id="projectsGrid">
+        <!-- Project 1: Travel Booking System -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card project-card" id="projectCard1">
+            <div class="project-img-wrapper">
+              <div class="project-overlay"></div>
+              <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=600&q=80" alt="Travel Booking System" class="project-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="project-body">
+              <h4 class="project-title text-white">Travel Booking System</h4>
+              <p class="project-desc text-gray">A premium, fluid system built to book trips, schedule tours, and issue e-tickets. Implemented custom booking workflows and live availability checks.</p>
+              <div class="project-tech-tags">
+                <span class="project-tech-tag">Java</span>
+                <span class="project-tech-tag">Spring Boot</span>
+                <span class="project-tech-tag">Bootstrap 5</span>
+                <span class="project-tech-tag">MySQL</span>
+              </div>
+              <div class="project-links">
+                <a href="#projects" class="project-btn-text"><i class="fa-solid fa-circle-info"></i> View Details</a>
+                <a href="https://github.com" class="project-btn-icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Knowledge Management System -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card project-card" id="projectCard2">
+            <div class="project-img-wrapper">
+              <div class="project-overlay"></div>
+              <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=600&q=80" alt="Knowledge Management System" class="project-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="project-body">
+              <h4 class="project-title text-white">Knowledge System</h4>
+              <p class="project-desc text-gray">An enterprise platform designed to store, organize, search, and distribute corporate intelligence, markdown articles, and secure internal documentation.</p>
+              <div class="project-tech-tags">
+                <span class="project-tech-tag">React</span>
+                <span class="project-tech-tag">NodeJS</span>
+                <span class="project-tech-tag">PostgreSQL</span>
+                <span class="project-tech-tag">Express</span>
+              </div>
+              <div class="project-links">
+                <a href="#projects" class="project-btn-text"><i class="fa-solid fa-circle-info"></i> View Details</a>
+                <a href="https://github.com" class="project-btn-icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Cafe Mobile App -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card project-card" id="projectCard3">
+            <div class="project-img-wrapper">
+              <div class="project-overlay"></div>
+              <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80" alt="Cafe Mobile App" class="project-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="project-body">
+              <h4 class="project-title text-white">Cafe Mobile App</h4>
+              <p class="project-desc text-gray">A gorgeous coffee ordering application. Features a dynamic shopping cart, order queue tracking, customizable roast levels, and simple login options.</p>
+              <div class="project-tech-tags">
+                <span class="project-tech-tag">Android</span>
+                <span class="project-tech-tag">Java</span>
+                <span class="project-tech-tag">Material Design</span>
+                <span class="project-tech-tag">SQLite</span>
+              </div>
+              <div class="project-links">
+                <a href="#projects" class="project-btn-text"><i class="fa-solid fa-circle-info"></i> View Details</a>
+                <a href="https://github.com" class="project-btn-icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Concert Ticket System -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card project-card" id="projectCard4">
+            <div class="project-img-wrapper">
+              <div class="project-overlay"></div>
+              <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=600&q=80" alt="Concert Ticket System" class="project-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="project-body">
+              <h4 class="project-title text-white">Concert Ticket System</h4>
+              <p class="project-desc text-gray">Designed to manage rapid seat reservations and ticket purchases. Features high transaction limits and automatic queue structures.</p>
+              <div class="project-tech-tags">
+                <span class="project-tech-tag">Spring Boot</span>
+                <span class="project-tech-tag">React</span>
+                <span class="project-tech-tag">PostgreSQL</span>
+                <span class="project-tech-tag">Redis</span>
+              </div>
+              <div class="project-links">
+                <a href="#projects" class="project-btn-text"><i class="fa-solid fa-circle-info"></i> View Details</a>
+                <a href="https://github.com" class="project-btn-icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Pixel Company Website -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card project-card" id="projectCard5">
+            <div class="project-img-wrapper">
+              <div class="project-overlay"></div>
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Pixel Company Website" class="project-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="project-body">
+              <h4 class="project-title text-white">Pixel Company Website</h4>
+              <p class="project-desc text-gray">An elegant corporate website for a high-end digital agency. Highlights projects in grid portfolios and showcases responsive CSS layout animations.</p>
+              <div class="project-tech-tags">
+                <span class="project-tech-tag">HTML5</span>
+                <span class="project-tech-tag">CSS3</span>
+                <span class="project-tech-tag">Bootstrap 5</span>
+                <span class="project-tech-tag">Motion Effects</span>
+              </div>
+              <div class="project-links">
+                <a href="#projects" class="project-btn-text"><i class="fa-solid fa-circle-info"></i> View Details</a>
+                <a href="https://github.com" class="project-btn-icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: Android Malware Detection Research -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card project-card" id="projectCard6">
+            <div class="project-img-wrapper">
+              <div class="project-overlay"></div>
+              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80" alt="Android Malware Detection Research" class="project-img" referrerPolicy="no-referrer">
+            </div>
+            <div class="project-body">
+              <h4 class="project-title text-white">Malware Analysis</h4>
+              <p class="project-desc text-gray">Research-led model testing platform parsing Android applications. Features automated decompiling checklists, Frida hook script templates, and risk assessments.</p>
+              <div class="project-tech-tags">
+                <span class="project-tech-tag">Python</span>
+                <span class="project-tech-tag">Frida Hooks</span>
+                <span class="project-tech-tag">MobSF</span>
+                <span class="project-tech-tag">TensorFlow</span>
+              </div>
+              <div class="project-links">
+                <a href="#projects" class="project-btn-text"><i class="fa-solid fa-circle-info"></i> View Details</a>
+                <a href="https://github.com" class="project-btn-icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       7. RESEARCH INTERESTS SECTION
+       ========================================== -->
+  <section class="research-section" id="research">
+    <div class="container">
+      <div class="section-title-container" id="researchHeader">
+        <span class="section-subtitle">05 / Fields</span>
+        <h2 class="section-title text-white">Research Interests</h2>
+      </div>
+      
+      <div class="row g-4" id="researchGrid">
+        <!-- AI -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card research-card" id="researchCard1">
+            <div class="research-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h4 class="research-title text-white">Artificial Intelligence</h4>
+            <p class="research-desc text-gray">Exploring the design of advanced algorithms, deep neural network capabilities, and cognitive machines that mimic human decision architectures.</p>
+          </div>
+        </div>
+        
+        <!-- ML -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card research-card" id="researchCard2">
+            <div class="research-icon">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <h4 class="research-title text-white">Machine Learning</h4>
+            <p class="research-desc text-gray">Designing statistical models, feature extraction algorithms, and predictive analysis systems to map complex pattern correlations in data.</p>
+          </div>
+        </div>
+        
+        <!-- Cybersecurity -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card research-card" id="researchCard3">
+            <div class="research-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h4 class="research-title text-white">Cybersecurity</h4>
+            <p class="research-desc text-gray">Protecting infrastructure assets. Researching perimeter defenses, modern web trust mechanisms, and secure authorization standards.</p>
+          </div>
+        </div>
+        
+        <!-- Malware Analysis -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card research-card" id="researchCard4">
+            <div class="research-icon">
+              <i class="fa-solid fa-bug-slash"></i>
+            </div>
+            <h4 class="research-title text-white">Malware Analysis</h4>
+            <p class="research-desc text-gray">Automating dynamic vulnerability checks in sandbox ecosystems, reverse-engineering executable code, and mapping malicious mobile application payloads.</p>
+          </div>
+        </div>
+        
+        <!-- Reinforcement Learning -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card research-card" id="researchCard5">
+            <div class="research-icon">
+              <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <h4 class="research-title text-white">Reinforcement Learning</h4>
+            <p class="research-desc text-gray">Studying Markov processes, multi-agent reward structures, and policy parameters in complex, constantly shifting environments.</p>
+          </div>
+        </div>
+        
+        <!-- Robotics -->
+        <div class="col-lg-4 col-md-6">
+          <div class="glass-card research-card" id="researchCard6">
+            <div class="research-icon">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <h4 class="research-title text-white">Robotics</h4>
+            <p class="research-desc text-gray">Investigating motor trajectory modeling, sensor arrays integration, and localized physical environment navigation systems.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       8. STATISTICS SECTION
+       ========================================== -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="row g-4" id="statsGrid">
+        <div class="col-md-3 col-6">
+          <div class="stat-card" id="statProjects">
+            <div class="stat-number">6+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+        </div>
+        
+        <div class="col-md-3 col-6">
+          <div class="stat-card" id="statTechnologies">
+            <div class="stat-number">7+</div>
+            <div class="stat-label">Technologies</div>
+          </div>
+        </div>
+        
+        <div class="col-md-3 col-6">
+          <div class="stat-card" id="statInternships">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Internship</div>
+          </div>
+        </div>
+        
+        <div class="col-md-3 col-6">
+          <div class="stat-card" id="statPassion">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Passion</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       9. CONTACT SECTION
+       ========================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-title-container" id="contactHeader">
+        <span class="section-subtitle">06 / Get In Touch</span>
+        <h2 class="section-title text-white">Contact Me</h2>
+      </div>
+      
+      <div class="row">
+        <!-- Contact Information -->
+        <div class="col-lg-5 col-md-12 mb-5 mb-lg-0">
+          <h3 class="text-white mb-4" id="contactInfoTitle">Let's build something exceptional</h3>
+          <p class="mb-5 text-gray" id="contactInfoText">
+            Whether you have an upcoming project, a collaborative research inquiry, or just want to connect, feel free to reach out. I am currently open to exciting opportunities in Software Engineering, AI, and Security roles.
+          </p>
+          
+          <div class="contact-info-list" id="contactInfoGrid">
+            <!-- Email -->
+            <div class="contact-info-item" id="contactEmail">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <div class="contact-info-label">Email</div>
+                <a href="mailto:wubgzeralemayehu18@gmail.com" class="contact-info-value">wubgzeralemayehu18@gmail.com</a>
+              </div>
+            </div>
+            
+            <!-- Phone -->
+            <div class="contact-info-item" id="contactPhone">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <div class="contact-info-label">Phone</div>
+                <span class="contact-info-value">+251 986059839</span>
+              </div>
+            </div>
+            
+            <!-- Location -->
+            <div class="contact-info-item" id="contactLoc">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-map-pin"></i>
+              </div>
+              <div>
+                <div class="contact-info-label">Location</div>
+                <span class="contact-info-value">Addis Ababa, Ethiopia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="col-lg-7 col-md-12 ps-lg-5">
+          <div class="glass-card p-4" id="contactFormContainer">
+            <form action="#" class="contact-form" id="contactMeForm" onsubmit="event.preventDefault(); alert('Message sent successfully! (This form has been configured and is ready for integration).');">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="formName">Your Name</label>
+                    <input type="text" class="form-control" id="formName" placeholder="wubgzer alemayehu" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="formEmail">Your Email</label>
+                    <input type="email" class="form-control" id="formEmail" placeholder="wubgzeralemayehu18@gmail.com" required>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="formSubject">Subject</label>
+                <input type="text" class="form-control" id="formSubject" placeholder="Inquiry about software development collaboration" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="formMessage">Message</label>
+                <textarea class="form-control" id="formMessage" rows="5" placeholder="Let's start collaborating on..." required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-premium-primary w-100 py-3 mt-2" id="btnSubmitForm">
+                Send Message <i class="fa-solid fa-paper-plane ms-2"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+       10. FOOTER
+       ========================================== -->
+  <footer class="custom-footer">
+    <div class="container">
+      <div class="row">
+        <!-- Logo & Short bio -->
+        <div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
+          <a class="footer-logo" href="#home" id="footerLogo">
+           WUBEGZER<span class="navbar-brand-dot"></span>
+          </a>
+          <p class="footer-desc text-gray" id="footerBio">
+            Developing premium full-stack structures, parsing Android software vulnerabilities, and constructing modular artificial intelligent algorithms.
+          </p>
+          <div class="footer-socials" id="footerSocialGrid">
+            <a href="https://github.com" class="footer-social-link" target="_blank" id="socialGithub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com" class="footer-social-link" target="_blank" id="socialLinkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:wubgzeralemayehu18@gmail.com" class="footer-social-link" id="socialEmail"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        
+        <!-- Navigation Link list -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ps-lg-5">
+          <h5 class="footer-title text-white" id="footerMenuTitle">Links</h5>
+          <ul class="footer-links" id="footerMenuList">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#skills" class="footer-link">Skills</a></li>
+            <li><a href="#experience" class="footer-link">Experience</a></li>
+          </ul>
+        </div>
+        
+        <!-- Projects links -->
+        <div class="col-lg-4 col-md-6">
+          <h5 class="footer-title text-white" id="footerProjectsTitle">Sitemap</h5>
+          <ul class="footer-links" id="footerProjectsList">
+            <li><a href="#projects" class="footer-link">Featured Projects</a></li>
+            <li><a href="#research" class="footer-link">Research Fields</a></li>
+            <li><a href="#contact" class="footer-link">Get In Touch</a></li>
+            <li><a href="assets/cv.pdf" class="footer-link" download>Download CV</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Footer Copyright Bar -->
+      <div class="footer-bottom" id="footerBottom">
+        <p class="footer-copy">
+          &copy; 2026 All Rights Reserved.
+        </p>
+        <span class="footer-author">
+          Designed by <span class="gradient-text-accent fw-bold">Wubgzer Alemayehu</span>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap 5 JS Bundle CDN (Includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Clean, minimal style helper to toggle active nav menu link based on scroll section -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var navbar = document.getElementById('mainNavbar');
+      
+      // Toggle navbar scroll effect
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 50) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
