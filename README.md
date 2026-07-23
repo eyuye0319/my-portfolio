@@ -53,4 +53,4 @@ Portfolio/
 
 ---
 
-Designed with care by **Wubgzer Alemayehu** &bull; © 2026.
+ **Wubgzer Alemayehu** &bull; © 2026.
